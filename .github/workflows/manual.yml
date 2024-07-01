@@ -30,6 +30,8 @@ jobs:
     # Runs a single command using the runners shell
     - name: Send greeting
       run: |
+          ls -ltr
           echo "Hello ${{ inputs.name }}" 
           cd ..
+          ls -ltr
           mvn clean install
