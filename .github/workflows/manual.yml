@@ -34,4 +34,4 @@ jobs:
           echo "Hello ${{ inputs.name }}" 
           cd ..
           ls -ltr
-          mvn clean install
+          mvn --v
