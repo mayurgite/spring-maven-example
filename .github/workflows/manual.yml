@@ -40,5 +40,6 @@ jobs:
         git config user.email "mayurgite.it@gmail.com"
         git status
         git tag
+        git rebase --skip
         git clean install
         echo 'Ended git tasks'
