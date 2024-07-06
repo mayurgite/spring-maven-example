@@ -40,6 +40,5 @@ jobs:
         git config user.email "mayurgite.it@gmail.com"
         git status
         git tag
-        git rebase --skip
-        git clean install
+        mvn versions:set -DnewVersion=2.50.1-SNAPSHOT
         echo 'Ended git tasks'
