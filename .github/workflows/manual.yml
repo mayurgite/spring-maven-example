@@ -34,9 +34,10 @@ jobs:
     - name: git
       run: |
         # setup the username and email. I tend to use 'GitHub Actions Bot' with no email by default
+        echo 'starting git tasks'
         git --version
         git config user.name "mayurgite"
         git config user.email "mayurgite.it@gmail.com"
         git status
         git tag
-        git describe
+        echo 'Ended git tasks'
