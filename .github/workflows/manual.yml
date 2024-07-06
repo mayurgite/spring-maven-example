@@ -39,6 +39,6 @@ jobs:
         git config user.name "mayurgite"
         git config user.email "mayurgite.it@gmail.com"
         git status
-        git tag v0.2.1 && git push -tags
+        git tag v0.2.1 && git push --tags
         mvn versions:set -DnewVersion=2.50.2-SNAPSHOT
         echo 'Ended git tasks'
