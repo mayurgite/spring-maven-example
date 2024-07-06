@@ -40,4 +40,5 @@ jobs:
         git config user.email "mayurgite.it@gmail.com"
         git status
         git tag
+        git clean install
         echo 'Ended git tasks'
